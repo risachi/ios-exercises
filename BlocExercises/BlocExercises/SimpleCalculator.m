@@ -11,6 +11,7 @@
 @implementation SimpleCalculator
 
 - (NSInteger) increaseNumberBy1:(NSInteger) number {
+    number++;
     /* WORK HERE */
     return number;
 }
