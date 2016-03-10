@@ -11,13 +11,14 @@
 @implementation SimpleCalculator
 
 - (NSInteger) increaseNumberBy1:(NSInteger) number {
-    number++;
     /* WORK HERE */
+    number++;
     return number;
 }
 
 - (NSInteger) addNumber:(NSInteger) number1 toNumber:(NSInteger) number2 {
     /* WORK HERE */
+    number1 = number1 + number2;
     return number1;
 }
 
