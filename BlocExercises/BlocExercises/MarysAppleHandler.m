@@ -19,7 +19,7 @@
         itemToReturn = @"get out of my store";
     } else if (dollars == 5) {
         itemToReturn = @"have some gum";
-    } else  if (dollars >= 6 && dollars < 1000){
+    } else if (dollars >= 6 && dollars < 1000){
         itemToReturn = @"have an apple";
     } else if (dollars >= 1000 && dollars < 1000000000) {
         itemToReturn = @"have an Apple computer";
