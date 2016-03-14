@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		17E46D20194763D70018BD4C /* EqualityDeterminer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E46D1F194763D70018BD4C /* EqualityDeterminer.m */; };
 		17E46D22194768C90018BD4C /* EqualityDeterminerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E46D21194768C90018BD4C /* EqualityDeterminerTests.m */; };
+		4268AE1E1C976EB5009DF472 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 4268AE1D1C976EB5009DF472 /* Car.m */; };
 		931AB0B11945063500B4FB76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AB0B01945063500B4FB76 /* XCTest.framework */; };
 		931AB0B31945063500B4FB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AB0B21945063500B4FB76 /* Foundation.framework */; };
 		931AB0B51945063500B4FB76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AB0B41945063500B4FB76 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 		17E46D1E194763D70018BD4C /* EqualityDeterminer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualityDeterminer.h; sourceTree = "<group>"; };
 		17E46D1F194763D70018BD4C /* EqualityDeterminer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualityDeterminer.m; sourceTree = "<group>"; };
 		17E46D21194768C90018BD4C /* EqualityDeterminerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualityDeterminerTests.m; sourceTree = "<group>"; };
+		4268AE1C1C976EB5009DF472 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Car.h; path = ../../Car.h; sourceTree = "<group>"; };
+		4268AE1D1C976EB5009DF472 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = ../../Car.m; sourceTree = "<group>"; };
 		931AB0AD1945063500B4FB76 /* BlocExercises.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocExercises.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		931AB0B01945063500B4FB76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		931AB0B21945063500B4FB76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -100,6 +103,8 @@
 		931AB0A21945060D00B4FB76 = {
 			isa = PBXGroup;
 			children = (
+				4268AE1C1C976EB5009DF472 /* Car.h */,
+				4268AE1D1C976EB5009DF472 /* Car.m */,
 				931AB0B61945063500B4FB76 /* BlocExercises */,
 				931AB0AF1945063500B4FB76 /* Frameworks */,
 				931AB0AE1945063500B4FB76 /* Products */,
@@ -321,6 +326,7 @@
 				936964A41947B1980021C271 /* StarTrekArrays.m in Sources */,
 				931AB0CB19464B7700B4FB76 /* SimpleCalculator.m in Sources */,
 				936964AA1947C8C40021C271 /* StarTrekDictionaries.m in Sources */,
+				4268AE1E1C976EB5009DF472 /* Car.m in Sources */,
 				936964B81948F8130021C271 /* NumberHandler.m in Sources */,
 				936964B21947E12D0021C271 /* StarTrekDictionariesTests.m in Sources */,
 			);
